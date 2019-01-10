@@ -17,7 +17,7 @@ node3 = tf.add(node1, node2)
 print("node1 : ", node1)
 print("node2 : ", node2)
 print("node3 : ", node3)
-
+/
 #결과값을 나오게하려면 세션을 만들고, sess.run으로 그래프의 노드를 실행시켜야함
 sess = tf.Session()
 print(sess.run(node3))
@@ -38,3 +38,4 @@ print(sess.run(adder_node, feed_dict={a: 2, b: 3.5}))
 #랭크     0= 스칼라 1= 벡터 2=매트릭스 3=3차원 텐서 n=n차원 텐서
 #셰이프   [] 안에 몇개의 요소를 가지는지
 #타입     tf.float32,64 tf.int32,64
+-*9+9*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
